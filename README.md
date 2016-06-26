@@ -14,7 +14,6 @@ Travis CI and github accounts
 
 ###usage  
 py.test  
-py.test maths.py  
 py.test --cov maths.py  
 py.test --cov-report term-missing --cov=maths.py  
 
