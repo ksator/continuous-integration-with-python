@@ -18,6 +18,9 @@ cd continuous-integration/
 py.test  
 py.test --cov maths.py  
 py.test --cov-report term-missing --cov=maths.py  
+py.test --cov-report term-missing  
+py.test --cov-report term-missing --ignore maths2.py  
+
 
 
 
