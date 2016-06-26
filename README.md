@@ -7,8 +7,8 @@ https://www.youtube.com/watch?v=buXwBr9H3VY
 https://www.youtube.com/watch?v=LdVJj65ikRY 
 
 ### what to find on this repo
-CI with Travis and pytest.    
-inpired by these 7 volumes:   
+CI with Travis and pytest. inpired by:    
+
 automated tests with pytest   
 https://ilovesymposia.com/2014/10/01/continuous-integration-0-automated-tests-with-pytest/  
 
