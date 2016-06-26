@@ -6,9 +6,9 @@ inpired by these 7 volumes: https://ilovesymposia.com/2014/10/01/continuous-inte
 https://www.youtube.com/watch?v=LdVJj65ikRY 
 
 ### requirements:  
-sudo pip install pytest
-sudo pip install pytest-cov 
-Travis CI and github accounts    
+sudo pip install pytest  
+sudo pip install pytest-cov   
+Travis CI and github accounts      
 
 
 
