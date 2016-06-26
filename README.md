@@ -32,7 +32,19 @@ to test with Travis CI, you need a github account. you can sign in to Travis and
 git clone https://github.com/ksator/continuous-integration.git  
 cd continuous-integration/ 
 
-### local tests  
+### how does it work
+maths.py has some function definitions.  
+test_multiple.py has the tests for math.py  
+
+This git repo has a webhook with Travis.   
+.travis.yml has the Travis CI details.  
+requirements.txt has the list of python packages Travis installs.  
+
+Travis tests with py.test the repo every time you push to your GitHub repository.   
+Travis pushes the coverage report to Coveralls every time Travis is run, i.e., every time you push to your GitHub repository.   
+
+
+### run python tests locally  
 py.test  
 py.test --cov maths.py  
 py.test --cov-report term-missing --cov=maths.py  
