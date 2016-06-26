@@ -12,11 +12,11 @@ script:
 branches:
   only:
    - master
+after_success:
+    - coveralls
 notifications:
   email:
     recipients:
       - khelil.sator@gmail.com
     on_success: always
     on_failure: always
-after_success:
-    - coveralls
