@@ -27,7 +27,7 @@ continuously check your test coverage using Coveralls (https://coveralls.io/)
 https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-test-coverage-using-coveralls/  
 
 ### requirements
-to test python code locally, install pytest and the pytest's plugin cov and coveralls (sudo pip install pytest pytest-cov coveralls)  
+to test python code locally, sudo pip install pytest pytest-cov coveralls  
 to test with Travis CI, you need a github account. you can sign in to Travis and coveralls with your github account.       
 
 ###usage for this repo  
