@@ -1,5 +1,7 @@
 # continuous-integration
 
+[![Coverage Status](https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master)](https://coveralls.io/github/ksator/continuous-integration?branch=master)
+
 ### introduction to CI with Travis   
 https://www.youtube.com/watch?v=buXwBr9H3VY  
 
