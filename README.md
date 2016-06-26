@@ -26,7 +26,7 @@ https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-t
 
 ### requirements
 to test python code locally, install pytest and the pytest's plugin cov and coveralls (sudo pip install pytest pytest-cov coveralls)  
-to test with Travis CI, you need a Travis CI and github accounts.      
+to test with Travis CI, you need a github account. you can sign in to Travis and coveralls with your github account.       
 
 ###usage for this repo  
 git clone https://github.com/ksator/continuous-integration.git  
