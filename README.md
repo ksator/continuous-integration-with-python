@@ -21,8 +21,11 @@ https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-y
 Using Travis-CI to run your tests automatically with each git push  
 https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-4-set-up-travis-ci/  
 
+continuously check your test coverage using Coveralls (https://coveralls.io/)
+https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-test-coverage-using-coveralls/  
+
 ### requirements
-to test python code locally, install pytest and the plugin cov (sudo pip install pytest pytest-cov)  
+to test python code locally, install pytest and the pytest's plugin cov and coveralls (sudo pip install pytest pytest-cov coveralls)  
 to test with Travis CI, you need a Travis CI and github accounts.      
 
 ###usage for this repo  
