@@ -12,7 +12,9 @@ sudo pip install pytest
 sudo pip install pytest-cov   
 Travis CI and github accounts      
 
-###usage  
+###usage 
+git clone https://github.com/ksator/continuous-integration.git  
+cd continuous-integration/  
 py.test  
 py.test --cov maths.py  
 py.test --cov-report term-missing --cov=maths.py  
