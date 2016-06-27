@@ -9,8 +9,7 @@ install:
 # command to run tests
 script:
 #   - py.test
-#   - py.test --cov-report term-missing --cov=maths.py
-    - py.test --cov-report term-missing --cov
+    - py.test --cov-report term-missing --cov=maths.py
 branches:
   only:
    - master
