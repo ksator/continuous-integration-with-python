@@ -10,7 +10,8 @@ https://www.youtube.com/watch?v=buXwBr9H3VY
 https://www.youtube.com/watch?v=LdVJj65ikRY 
 
 ### what to find on this repo
-CI with Travis and pytest. inpired by:    
+CI with Travis and pytest. And test coverage using Coveralls.   
+inpired by:      
 
 automated tests with pytest   
 https://ilovesymposia.com/2014/10/01/continuous-integration-0-automated-tests-with-pytest/  
@@ -38,6 +39,10 @@ to test with Travis CI, you need a github account. you can sign in to Travis and
 ###usage for this repo  
 git clone https://github.com/ksator/continuous-integration.git  
 cd continuous-integration/ 
+Github has a webhook with Travis CI.   
+Travis CI runs tests every time you push to your GitHub repository.   
+Travis pushes the coverage report to Coveralls every time Travis is run.  
+
 
 ### how does it work
 maths.py has some function definitions.  
