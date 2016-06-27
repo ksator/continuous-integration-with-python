@@ -2,7 +2,6 @@
 [![Build Status](https://travis-ci.org/ksator/continuous-integration.svg?branch=master)](https://travis-ci.org/ksator/continuous-integration)
 [![Coverage Status](https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master)](https://coveralls.io/github/ksator/continuous-integration?branch=master)
 
-<a href='https://coveralls.io/github/ksator/continuous-integration?branch=master'><img src='https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master' alt='Coverage Status' /></a> 
 
 ### introduction to CI with Travis   
 https://www.youtube.com/watch?v=buXwBr9H3VY  
