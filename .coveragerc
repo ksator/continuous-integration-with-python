@@ -1,2 +1,2 @@
 [run]
-omit =/usr/local/lib
+omit =/usr/local/*
