@@ -46,7 +46,7 @@ Travis pushes the coverage report to Coveralls every time Travis is run.
 
 ### how does it work
 maths.py has some function definitions.  
-test_multiple.py has the tests for math.py  
+tests/test_multiple.py has the tests for math.py  
 
 This git repo has a webhook with Travis.   
 .travis.yml has the Travis CI details.  
