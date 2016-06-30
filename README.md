@@ -51,6 +51,9 @@ Travis pushes the coverage report to Coveralls every time Travis is run.
 maths.py has some function definitions.  
 tests/test_multiple.py has the tests for math.py  
 
+maths3.py uses https://docs.python.org/2/library/doctest.html  
+Pytest supports doctests with the --doctest-modules flag. (This runs both your standard tests and doctests.)
+
 This git repo has a webhook with Travis.   
 .travis.yml has the Travis CI details.  
 requirements.txt has the list of python packages Travis installs.  
