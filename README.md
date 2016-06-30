@@ -59,7 +59,7 @@ Travis pushes the coverage report to Coveralls every time Travis is run, i.e., e
 ### run python tests locally  
 py.test  
 py.test -v  
-y.test --cov .  
+py.test --cov .  
 py.test --cov maths.py  
 py.test --cov maths.py -v  
 py.test --cov-report term-missing --cov .  
