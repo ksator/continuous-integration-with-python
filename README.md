@@ -9,6 +9,9 @@ https://www.youtube.com/watch?v=buXwBr9H3VY
 ### introduction to pytest
 https://www.youtube.com/watch?v=LdVJj65ikRY 
 
+### python doctest module  
+https://docs.python.org/2/library/doctest.html  
+  
 ### what to find on this repo
 CI with Travis and pytest. And test coverage using Coveralls.   
 inpired by:      
