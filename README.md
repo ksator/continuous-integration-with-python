@@ -65,6 +65,7 @@ py.test --cov maths.py -v
 py.test --cov-report term-missing --cov .  
 py.test --cov-report term-missing --cov=maths.py  
 py.test --cov-report term-missing --cov=maths.py -v  
+py.test --doctest-modules -v  
 py.test --doctest-modules --cov .  
 py.test --doctest-modules --cov . --cov-report term-missing  
 py.test --cov-report term-missing    
