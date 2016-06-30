@@ -59,12 +59,16 @@ Travis pushes the coverage report to Coveralls every time Travis is run, i.e., e
 ### run python tests locally  
 py.test
 py.test -v
+y.test --cov .
 py.test --cov maths.py
 py.test --cov maths.py -v
+py.test --cov-report term-missing --cov .
 py.test --cov-report term-missing --cov=maths.py
 py.test --cov-report term-missing --cov=maths.py -v
-py.test --cov-report term-missing  
-py.test --cov-report term-missing --ignore maths2.py  
+py.test --doctest-modules --cov . 
+py.test --doctest-modules --cov . --cov-report term-missing
+#py.test --cov-report term-missing  
+#py.test --cov-report term-missing --ignore maths2.py  
 you can use a setup.cfg file at the root of the project with configuration options (ignore maths2.py, cov-report term-missing, ....) to then invoke your tests with a simple call to py.test.  
 more details:   
 https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
