@@ -52,6 +52,7 @@ maths.py has some function definitions.
 tests/test_multiple.py has the tests for math.py  
 
 maths3.py uses https://docs.python.org/2/library/doctest.html  
+the tests are in the code comment.  
 Pytest supports doctests with the --doctest-modules flag. (This runs both your standard tests and doctests.)
 
 This git repo has a webhook with Travis.   
