@@ -1,3 +1,7 @@
+"""
+This is the "maths3" module.
+it defines some arithmetic operation
+"""
 def multiple(first,second):
     """Return multiplication of the 2 arguments.
  
