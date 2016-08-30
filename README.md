@@ -25,6 +25,7 @@ to test python code locally:
 ```
 sudo pip install pytest pytest-cov coveralls  
 ```
+Actually, coveralls installation is not required locally. it is used by Travis CI  to push coverage report to the Coveralls service.     
 
 Travis CI:  
 to test with Travis CI, you need a github account.  
@@ -42,20 +43,47 @@ cd continuous-integration/
 ```
 
 ### how does it work
-maths.py has some function definitions.  
-tests/test_multiple.py has the tests for math.py  
 
-maths3.py uses https://docs.python.org/2/library/doctest.html  
-the tests are in the code comment.  
-Pytest supports doctests with the --doctest-modules flag. (This runs both your standard tests and doctests.)
+####pytest   
+This is a testing tool for python.   
+By default, pytest discovers tests by looking at files that have these patterns test_*.py and *_test.py  
+Type py.test on the command line at your project root directory: Pytest will traverse all your subdirectories, gather up all the test files, run your tests, and provide an output.  
 
-This git repo has a webhook with Travis.   
-.travis.yml has the Travis CI details.  
-requirements.txt has the list of python packages Travis installs.  
+pytest installation: 
+```
+pip install pytest
+```
 
-Travis tests with py.test the repo every time you push to your GitHub repository.   
-Travis pushes the coverage report to Coveralls every time Travis is run, i.e., every time you push to your GitHub repository.   
+maths.py has some function definitions. tests/test_multiple.py has the tests for math.py  
 
+####doctest   
+The doctest module searches for pieces of text that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown.  
+https://docs.python.org/2/library/doctest.html  
+Pytest supports doctests with the --doctest-modules flag.  
+
+maths3.py is using doctests. the tests are in the code comment.  
+
+####coverage reporting  
+testing is important, measuring coverage is also important.   
+Pytest can measure coverage for you with the coverage plugin, found in the pytest-cov package. pytest-cov is a Pytest plugin for measuring coverage.  
+
+pytest-cov installation: 
+```
+pip install pytest-cov
+```
+
+use the option --cov to mesure coverage.  
+with the option --cov-report term-missing, we can see which lines are not covered.   
+
+####Travis CI 
+to make these tests and reports automatic, we use a github webhook with Travis CI.   
+Travis tests with py.test the repo every time you push to your GitHub repository.  
+The file .travis.yml has the Travis CI details.  
+The file requirements.txt has the list of python packages Travis installs.  
+
+####Coveralls 
+Our .travis.yml file use the service Coveralls: Travis pushes the coverage report to Coveralls every time it runs, i.e., every time you push something to your GitHub repository.  
+ 
 ### run python tests locally  
 py.test  
 py.test -v  
