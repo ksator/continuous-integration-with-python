@@ -54,14 +54,14 @@ pytest installation:
 pip install pytest
 ```
 
-maths.py has some function definitions. tests/test_multiple.py has the tests for math.py  
+**maths.py** has some function definitions. **tests/test_multiple.py** has the tests for math.py  
 
 ####doctest   
 The doctest module searches for pieces of text that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown.  
 https://docs.python.org/2/library/doctest.html  
 Pytest supports doctests with the --doctest-modules flag.  
 
-maths3.py is using doctests. the tests are in the code comment.  
+**maths3.py** is using doctests. the tests are in the code comment.  
 
 ####coverage reporting  
 testing is important, measuring coverage is also important.   
@@ -78,11 +78,11 @@ with the option --cov-report term-missing, we can see which lines are not covere
 ####Travis CI 
 to make these tests and reports automatic, we use a github webhook with Travis CI.   
 Travis tests with py.test the repo every time you push to your GitHub repository.  
-The file .travis.yml has the Travis CI details.  
-The file requirements.txt has the list of python packages Travis installs.  
+The file **.travis.yml** has the Travis CI details.  
+The file **requirements.txt** has the list of python packages Travis installs.  
 
 ####Coveralls 
-Our .travis.yml file use the service Coveralls: Travis pushes the coverage report to Coveralls every time it runs, i.e., every time you push something to your GitHub repository.  
+Our **.travis.yml** file use the service Coveralls: Travis pushes the coverage report to Coveralls every time it runs, i.e., every time you push something to your GitHub repository.  
  
 ### run python tests locally  
 py.test  
