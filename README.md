@@ -21,18 +21,18 @@
 
 ### requirements
 
-to test python code locally: 
+####to test python code locally: 
 ```
 sudo pip install pytest pytest-cov coveralls  
 ```
 Actually, coveralls installation is not required locally. it is used by Travis CI  to push coverage report to the Coveralls service.     
 
-Travis CI:  
+####Travis CI:  
 to test with Travis CI, you need a github account.  
 Github has a webhook with Travis CI.   
 Travis CI runs tests every time you push to your GitHub repository.   
 
-Coveralls:   
+####Coveralls:   
 Travis pushes the coverage report to Coveralls every time Travis is run.   
 You can sign in to Travis and coveralls with your github account.  
 
@@ -42,7 +42,7 @@ git clone https://github.com/ksator/continuous-integration.git
 cd continuous-integration/  
 ```
 
-### how does it work
+###how does it work
 
 ####pytest   
 This is a testing tool for python.   
