@@ -18,7 +18,7 @@ https://docs.python.org/2/library/doctest.html
 - CI with Travis. 
 - Coverage reporting with Coveralls.  
 
-Inpired by:  
+#####Inpired by:  
 **automated tests with pytest**    
 https://ilovesymposia.com/2014/10/01/continuous-integration-0-automated-tests-with-pytest/  
 
@@ -39,16 +39,22 @@ https://ilovesymposia.com/2014/10/17/continuous-integration-in-python-6-show-off
 
 
 ### requirements
-to test python code locally: sudo pip install pytest pytest-cov coveralls  
-to test with Travis CI, you need a github account. you can sign in to Travis and coveralls with your github account.       
+to test python code locally: 
+```
+sudo pip install pytest pytest-cov coveralls  
+```
 
-###usage for this repo  
-git clone https://github.com/ksator/continuous-integration.git  
-cd continuous-integration/ 
+to test with Travis CI, you need a github account.  
 Github has a webhook with Travis CI.   
 Travis CI runs tests every time you push to your GitHub repository.   
-Travis pushes the coverage report to Coveralls every time Travis is run.  
+Travis pushes the coverage report to Coveralls every time Travis is run.   
+you can sign in to Travis and coveralls with your github account.  
 
+###usage for this repo  
+```
+git clone https://github.com/ksator/continuous-integration.git  
+cd continuous-integration/  
+```
 
 ### how does it work
 maths.py has some function definitions.  
@@ -64,7 +70,6 @@ requirements.txt has the list of python packages Travis installs.
 
 Travis tests with py.test the repo every time you push to your GitHub repository.   
 Travis pushes the coverage report to Coveralls every time Travis is run, i.e., every time you push to your GitHub repository.   
-
 
 ### run python tests locally  
 py.test  
@@ -89,12 +94,6 @@ more details:
 https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
 http://pytest.org/latest/customize.html  
 http://coverage.readthedocs.io/en/latest/config.html  
-
-
-
-
-
-
 
 
 
