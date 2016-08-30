@@ -2,53 +2,38 @@
 [![Build Status](https://travis-ci.org/ksator/continuous-integration.svg?branch=master)](https://travis-ci.org/ksator/continuous-integration)
 [![Coverage Status](https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master)](https://coveralls.io/github/ksator/continuous-integration?branch=master)
 
-
-### introduction to CI with Travis   
-https://www.youtube.com/watch?v=buXwBr9H3VY  
-
-### introduction to pytest
-https://www.youtube.com/watch?v=LdVJj65ikRY 
-
-### python doctest module  
-https://docs.python.org/2/library/doctest.html  
-  
 ### what to find on this repo  
 - How to set up automated testing for your Python project using pytest.  
 - How to mesure coverage with pytest-cov (Pytest plugin for measuring coverage)
 - CI with Travis. 
 - Coverage reporting with Coveralls.  
 
-#####Inpired by:  
-**automated tests with pytest**    
-https://ilovesymposia.com/2014/10/01/continuous-integration-0-automated-tests-with-pytest/  
-
-**Measuring test coverage**    
-https://ilovesymposia.com/2014/10/02/continuous-integration-1-test-coverage/  
-
-**Setting up test configuration files**    
-https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
-
-**Using Travis-CI to run your tests automatically with each git push**    
-https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-4-set-up-travis-ci/  
-
-**continuously check your test coverage using Coveralls (https://coveralls.io/)**    
-https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-test-coverage-using-coveralls/ 
-
-**badge your repo**    
-https://ilovesymposia.com/2014/10/17/continuous-integration-in-python-6-show-off-your-work/  
-
+### Inpired by:  
+- **introduction to CI with Travis:** https://www.youtube.com/watch?v=buXwBr9H3VY  
+- **introduction to pytest:** https://www.youtube.com/watch?v=LdVJj65ikRY 
+- **python doctest module:** https://docs.python.org/2/library/doctest.html
+- **automated tests with pytest:** https://ilovesymposia.com/2014/10/01/continuous-integration-0-automated-tests-with-pytest/
+- **Measuring test coverage:** https://ilovesymposia.com/2014/10/02/continuous-integration-1-test-coverage/  
+- **Setting up test configuration files:** https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
+- **Using Travis-CI to run your tests automatically with each git push:** https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-4-set-up-travis-ci/  
+- **continuously check your test coverage using Coveralls (https://coveralls.io/):** https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-test-coverage-using-coveralls/ 
+- **badge your repo:** https://ilovesymposia.com/2014/10/17/continuous-integration-in-python-6-show-off-your-work/  
 
 ### requirements
+
 to test python code locally: 
 ```
 sudo pip install pytest pytest-cov coveralls  
 ```
 
+Travis CI:  
 to test with Travis CI, you need a github account.  
 Github has a webhook with Travis CI.   
 Travis CI runs tests every time you push to your GitHub repository.   
+
+Coveralls:   
 Travis pushes the coverage report to Coveralls every time Travis is run.   
-you can sign in to Travis and coveralls with your github account.  
+You can sign in to Travis and coveralls with your github account.  
 
 ###usage for this repo  
 ```
