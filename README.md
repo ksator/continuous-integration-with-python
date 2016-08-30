@@ -12,31 +12,34 @@ https://www.youtube.com/watch?v=LdVJj65ikRY
 ### python doctest module  
 https://docs.python.org/2/library/doctest.html  
   
-### what to find on this repo
-CI with Travis and pytest. And test coverage using Coveralls.   
-inpired by:      
+### what to find on this repo  
+- How to set up automated testing for your Python project using pytest.  
+- How to mesure coverage with pytest-cov (Pytest plugin for measuring coverage)
+- CI with Travis. 
+- Coverage reporting with Coveralls.  
 
-automated tests with pytest   
+Inpired by:  
+**automated tests with pytest**    
 https://ilovesymposia.com/2014/10/01/continuous-integration-0-automated-tests-with-pytest/  
 
-Measuring test coverage  
+**Measuring test coverage**    
 https://ilovesymposia.com/2014/10/02/continuous-integration-1-test-coverage/  
 
-Setting up test configuration files  
+**Setting up test configuration files**    
 https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
 
-Using Travis-CI to run your tests automatically with each git push  
+**Using Travis-CI to run your tests automatically with each git push**    
 https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-4-set-up-travis-ci/  
 
-continuously check your test coverage using Coveralls (https://coveralls.io/)  
+**continuously check your test coverage using Coveralls (https://coveralls.io/)**    
 https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-test-coverage-using-coveralls/ 
 
-badge your repo  
+**badge your repo**    
 https://ilovesymposia.com/2014/10/17/continuous-integration-in-python-6-show-off-your-work/  
 
 
 ### requirements
-to test python code locally, sudo pip install pytest pytest-cov coveralls  
+to test python code locally: sudo pip install pytest pytest-cov coveralls  
 to test with Travis CI, you need a github account. you can sign in to Travis and coveralls with your github account.       
 
 ###usage for this repo  
@@ -75,6 +78,8 @@ py.test --cov-report term-missing --cov=maths.py -v
 py.test --doctest-modules -v  
 py.test --doctest-modules --cov .  
 py.test --doctest-modules --cov . --cov-report term-missing  
+py.test --doctest-modules --cov=maths3.py  
+py.test --doctest-modules --cov=maths3.py --cov-report term-missing  
 py.test --cov-report term-missing    
 py.test --cov-report term-missing --ignore maths2.py  
   
