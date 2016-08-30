@@ -59,7 +59,7 @@ pip install pytest
 ###doctest   
 The doctest module searches for pieces of text that look like interactive Python sessions, and then executes those sessions to verify that they work exactly as shown.  
 https://docs.python.org/2/library/doctest.html  
-Pytest supports doctests with the --doctest-modules flag.  
+Pytest supports doctests with the **--doctest-modules** flag.  
 
 **maths3.py** is using doctests. the tests are in the code comment.  
 
@@ -72,8 +72,8 @@ pytest-cov installation:
 pip install pytest-cov
 ```
 
-use the option --cov to mesure coverage.  
-with the option --cov-report term-missing, we can see which lines are not covered.   
+use the option **--cov** to mesure coverage.  
+with the option **--cov-report term-missing**, we can see which lines are not covered.   
 
 ###Travis CI 
 to make these tests and reports automatic, we use a github webhook with Travis CI.   
