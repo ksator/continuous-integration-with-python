@@ -6,7 +6,7 @@
 - How to set up automated testing for your Python project using pytest.  
 - How to mesure coverage with pytest-cov (Pytest plugin for measuring coverage)
 - CI with Travis. 
-- Coverage reporting with Coveralls.  
+- Automatic coverage reporting with Coveralls.  
 
 ## Inpired by:  
 - **introduction to CI with Travis:** https://www.youtube.com/watch?v=buXwBr9H3VY  
