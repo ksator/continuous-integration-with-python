@@ -3,6 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master)](https://coveralls.io/github/ksator/continuous-integration?branch=master)
 
 bbb
+ccc
 
 ## what to find on this repo  
 - How to set up automated testing for your Python project using pytest.  
