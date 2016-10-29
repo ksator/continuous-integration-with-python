@@ -118,5 +118,8 @@ https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-y
 http://pytest.org/latest/customize.html  
 http://coverage.readthedocs.io/en/latest/config.html  
 
+## python syntax check
+you can use the module py_compile to validate the syntax of a python script.  
+python -m py_compile maths.py  
 
 
