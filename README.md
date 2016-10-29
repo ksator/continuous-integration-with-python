@@ -82,7 +82,7 @@ The file **requirements.txt** has the list of python packages Travis installs.
 Our **.travis.yml** file use the service Coveralls: Travis pushes the coverage report to Coveralls every time it runs, i.e., every time you push something to your GitHub repository.  
  
 ## run python tests locally  
-
+```
 py.test  
 py.test -v  
 
@@ -111,6 +111,7 @@ py.test --doctest-modules --cov=maths3.py -v
 
 py.test --doctest-modules --cov=maths3.py --cov-report term-missing  
 py.test --doctest-modules --cov=maths3.py --cov-report term-missing -v  
+```
 ##  setup.cfg file  
 you can use a setup.cfg file at the root of the project with configuration options (ignore maths2.py, cov-report term-missing, ....) to then invoke your tests with a simple call to py.test.  
 more details:   
@@ -120,6 +121,7 @@ http://coverage.readthedocs.io/en/latest/config.html
 
 ## python syntax check
 you can use the module py_compile to validate the syntax of a python script.  
+```
 python -m py_compile maths.py  
-
+```
 
