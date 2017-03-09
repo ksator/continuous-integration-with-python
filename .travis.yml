@@ -8,8 +8,8 @@ install:
     - pip install -r requirements.txt
 # command to run tests
 script:
-#   - py.test --cov-report term-missing --cov=maths.py
-#    - py.test --doctest-modules --cov=maths3.py --cov-report term-missing
+    - py.test --cov-report term-missing --cov=maths
+    - py.test --doctest-modules --cov=maths3 --cov-report term-missing
     - py.test
 branches:
   only:
