@@ -1,7 +1,7 @@
 # continuous-integration
 [![Build Status](https://travis-ci.org/ksator/continuous-integration-with-python.svg?branch=master)](https://travis-ci.org/ksator/continuous-integration-with-python)
 [![Coverage Status](https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master)](https://coveralls.io/github/ksator/continuous-integration?branch=master)
-- How to mesure coverage with pytest-cov (Pytest plugin for measuring coverage)
+- How to mesure coverage with pytest-cov (Pytest plugin for measuring coverage).
 - CI with Travis. 
 - Automatic coverage reporting with Coveralls.  
 
