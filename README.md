@@ -8,15 +8,15 @@
 - Automatic coverage reporting with Coveralls.  
 
 ## Inpired by:  
-- **introduction to CI with Travis:** https://www.youtube.com/watch?v=buXwBr9H3VY  
-- **introduction to pytest:** https://www.youtube.com/watch?v=LdVJj65ikRY 
-- **python doctest module:** https://docs.python.org/2/library/doctest.html
-- **automated tests with pytest:** https://ilovesymposia.com/2014/10/01/continuous-integration-0-automated-tests-with-pytest/
-- **Measuring test coverage:** https://ilovesymposia.com/2014/10/02/continuous-integration-1-test-coverage/  
-- **Setting up test configuration files:** https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
-- **Using Travis-CI to run your tests automatically with each git push:** https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-4-set-up-travis-ci/  
-- **continuously check your test coverage using Coveralls (https://coveralls.io/):** https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-test-coverage-using-coveralls/ 
-- **badge your repo:** https://ilovesymposia.com/2014/10/17/continuous-integration-in-python-6-show-off-your-work/  
+- introduction to CI with Travis: https://www.youtube.com/watch?v=buXwBr9H3VY  
+- introduction to pytest: https://www.youtube.com/watch?v=LdVJj65ikRY 
+- python doctest module: https://docs.python.org/2/library/doctest.html
+- automated tests with pytest: https://ilovesymposia.com/2014/10/01/continuous-integration-0-automated-tests-with-pytest/
+- Measuring test coverage: https://ilovesymposia.com/2014/10/02/continuous-integration-1-test-coverage/  
+- Setting up test configuration files: https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
+- Using Travis-CI to run your tests automatically with each git push: https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-4-set-up-travis-ci/  
+- continuously check your test coverage using Coveralls (https://coveralls.io/): https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-test-coverage-using-coveralls/ 
+- badge your repo: https://ilovesymposia.com/2014/10/17/continuous-integration-in-python-6-show-off-your-work/  
 
 ## Requirements: 
 
