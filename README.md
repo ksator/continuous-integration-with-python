@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/ksator/continuous-integration-with-python.svg?branch=master)](https://travis-ci.org/ksator/continuous-integration-with-python)
 [![Coverage Status](https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master)](https://coveralls.io/github/ksator/continuous-integration?branch=master)  
 
-# About this repo: 
+## About this repo: 
 - How to test python code with pytest.  
 - How to mesure test coverage with pytest-cov (Pytest plugin for measuring coverage).
 - How to automate tests using pytest with TravisCI.   
@@ -35,13 +35,13 @@ Travis CI runs tests every time you push to your GitHub repository.
 Travis pushes the coverage report to Coveralls every time Travis is run.   
 You can sign in to Travis and coveralls with your github account.  
 
-## usage for this repo:   
+## Usage for this repo:   
 ```
 git clone https://github.com/ksator/continuous-integration.git  
 cd continuous-integration/  
 ```
 
-## how does it work: 
+## How does it work: 
 
 ### pytest:    
 This is a testing tool for python.   
