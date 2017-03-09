@@ -1,8 +1,10 @@
-# Continuous Integration: 
 [![Build Status](https://travis-ci.org/ksator/continuous-integration-with-python.svg?branch=master)](https://travis-ci.org/ksator/continuous-integration-with-python)
-[![Coverage Status](https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master)](https://coveralls.io/github/ksator/continuous-integration?branch=master)
-- How to mesure coverage with pytest-cov (Pytest plugin for measuring coverage).
-- CI with Travis. 
+[![Coverage Status](https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master)](https://coveralls.io/github/ksator/continuous-integration?branch=master)  
+
+# About this repo: 
+- How to test python code with pytest.  
+- How to mesure test coverage with pytest-cov (Pytest plugin for measuring coverage).
+- How to automate tests using pytest with TravisCI.   
 - Automatic coverage reporting with Coveralls.  
 
 ## Inpired by:  
@@ -26,7 +28,7 @@ Actually, coveralls installation is not required locally. it is used by Travis C
 
 ### Travis CI:  
 to test with Travis CI, you need a github account.  
-Github has a webhook with Travis CI.   
+Github supports webhook with Travis CI.   
 Travis CI runs tests every time you push to your GitHub repository.   
 
 ### Coveralls:   
