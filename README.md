@@ -89,13 +89,14 @@ cd continuous-integration-with-python/
 
 #### pytest:    
 This is a testing tool for python.   
-By default, pytest discovers tests by looking at files that have these patterns test_*.py and *_test.py  
-Type py.test on the command line at your project root directory: Pytest will traverse all your subdirectories, gather up all the test files, run your tests, and provide an output.  
 
 pytest installation: 
 ```
 pip install pytest
 ```
+By default, pytest discovers tests by looking at files that have these patterns test_*.py and *_test.py  
+Type ```py.test``` on the command line at your project root directory: Pytest will traverse all your subdirectories, gather up all the test files, run your tests, and provide an output.  
+
 
 [**maths.py**](maths.py) has some function definitions. [**test_multiple.py**](tests/test_multiple.py) has the tests for math.py  
 
