@@ -80,8 +80,8 @@ You can sign in to Travis and coveralls with your github account.
 
 ## How to clone this repository:   
 ```
-git clone https://github.com/ksator/continuous-integration.git  
-cd continuous-integration/  
+git clone https://github.com/ksator/continuous-integration-with-python.git
+cd continuous-integration-with-python/  
 ```
 
 ## How does it work: 
