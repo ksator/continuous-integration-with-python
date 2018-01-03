@@ -63,11 +63,13 @@ root@ubuntu:~/continuous-integration-with-python#
 
 ## Requirements: 
 
-#### To test your python code locally using pytest: 
+#### Pytest 
+Pytest is a testing tool for python.  
+To test yourself your python code locally using pytest, you first need to install it: 
 ```
 sudo pip install pytest pytest-cov coveralls  
 ```
-Actually, coveralls installation is not required locally. It is used by Travis CI  to push coverage report to the Coveralls service.     
+Actually, coveralls installation is not required locally. coveralls is used by Travis CI to push coverage report to the Coveralls service.     
 
 #### Travis CI:  
 https://travis-ci.com/  
@@ -164,7 +166,7 @@ py.test --doctest-modules --cov=maths3.py --cov-report term-missing
 py.test --doctest-modules --cov=maths3.py --cov-report term-missing -v  
 ```
 ##  setup.cfg file:   
-You can use a [**setup.cfg file**](setup.cfg) at the root of the project with configuration options (ignore maths2.py, cov-report term-missing, ....) to then invoke your tests with a simple call to py.test.  
+You can use a setup.cfg file at the root of the project with configuration options (ignore maths2.py, cov-report term-missing, ....) to then invoke your tests with a simple call to py.test.  
 More details:   
 - https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
 - http://pytest.org/latest/customize.html  
