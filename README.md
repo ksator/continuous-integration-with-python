@@ -47,7 +47,7 @@ pip install astroid
 pip install isort
 pip install pylint
 ```
-
+Test your script with pylint:
 ```
 # pylint a.py -r no
 No config file found, using default configuration
