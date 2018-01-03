@@ -2,6 +2,57 @@
 [![Coverage Status](https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master)](https://coveralls.io/github/ksator/continuous-integration?branch=master)  
 
 
+## python syntax check: 
+You can use the module py_compile to validate the syntax of a python script.  
+```
+python -m py_compile maths.py  
+```
+
+## python more advanced tests:
+This python script uses an undefined variable
+```
+# more a.py 
+a
+print a
+```
+
+So python can't execute it.
+```
+# python a.py 
+Traceback (most recent call last):
+  File "a.py", line 1, in <module>
+    a
+NameError: name 'a' is not defined
+```
+
+However py_compile doesnt catch the error. py_compile only helps with syntax error and other basic checks. Python only goes into function during runtime and hence undefined variable cannot be caught using that. 
+```
+# python -m py_compile a.py 
+```
+
+However, pylint detects this error. 
+
+pylint installation: 
+```
+sudo -s
+pip install astroid
+pip install isort
+pip install pylint
+```
+
+```
+# pylint a.py -r no
+No config file found, using default configuration
+************* Module a
+C:  1, 0: Missing module docstring (missing-docstring)
+W:  1, 0: Statement seems to have no effect (pointless-statement)
+E:  1, 0: Undefined variable 'a' (undefined-variable)
+E:  2, 6: Undefined variable 'a' (undefined-variable)
+root@ubuntu:~/continuous-integration-with-python# 
+```
+
+
+
 ## About this repo: 
 - How to test python code with pytest.  
 - How to mesure test coverage with pytest-cov (Pytest plugin for measuring coverage).
@@ -121,53 +172,3 @@ More details:
 https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
 http://pytest.org/latest/customize.html  
 http://coverage.readthedocs.io/en/latest/config.html  
-
-## python syntax check: 
-You can use the module py_compile to validate the syntax of a python script.  
-```
-python -m py_compile maths.py  
-```
-
-## python more advanced tests:
-This python script uses an undefined variable
-```
-# more a.py 
-a
-print a
-```
-
-So python can't execute it.
-```
-# python a.py 
-Traceback (most recent call last):
-  File "a.py", line 1, in <module>
-    a
-NameError: name 'a' is not defined
-```
-
-However py_compile doesnt catch the error. py_compile only helps with syntax error and other basic checks. Python only goes into function during runtime and hence undefined variable cannot be caught using that. 
-```
-# python -m py_compile a.py 
-```
-
-However, pylint detects this error. 
-
-pylint installation: 
-```
-sudo -s
-pip install astroid
-pip install isort
-pip install pylint
-```
-
-```
-# pylint a.py -r no
-No config file found, using default configuration
-************* Module a
-C:  1, 0: Missing module docstring (missing-docstring)
-W:  1, 0: Statement seems to have no effect (pointless-statement)
-E:  1, 0: Undefined variable 'a' (undefined-variable)
-E:  2, 6: Undefined variable 'a' (undefined-variable)
-root@ubuntu:~/continuous-integration-with-python# 
-```
-
