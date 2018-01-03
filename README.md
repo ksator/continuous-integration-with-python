@@ -56,7 +56,6 @@ C:  1, 0: Missing module docstring (missing-docstring)
 W:  1, 0: Statement seems to have no effect (pointless-statement)
 E:  1, 0: Undefined variable 'a' (undefined-variable)
 E:  2, 6: Undefined variable 'a' (undefined-variable)
-root@ubuntu:~/continuous-integration-with-python# 
 ```
 
 # Continious integration for Python code
