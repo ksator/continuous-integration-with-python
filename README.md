@@ -1,14 +1,22 @@
 [![Build Status](https://travis-ci.org/ksator/continuous-integration-with-python.svg?branch=master)](https://travis-ci.org/ksator/continuous-integration-with-python)
 [![Coverage Status](https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master)](https://coveralls.io/github/ksator/continuous-integration?branch=master)  
 
+## About this repo: 
+- How to syntax check python script using py_compile
+- How to run python tests using pylint
+- How to test python code with pytest.  
+- How to mesure test coverage with pytest-cov (Pytest plugin for measuring coverage).
+- How to automate tests using pytest with TravisCI.   
+- Automatic coverage reporting with Coveralls.  
 
-## python syntax check: 
+
+## python syntax check using py_compile: 
 You can use the module py_compile to validate the syntax of a python script.  
 ```
 python -m py_compile maths.py  
 ```
 
-## python more advanced tests:
+## python tests using pylint:
 This python script uses an undefined variable
 ```
 # more a.py 
@@ -51,24 +59,6 @@ E:  2, 6: Undefined variable 'a' (undefined-variable)
 root@ubuntu:~/continuous-integration-with-python# 
 ```
 
-
-
-## About this repo: 
-- How to test python code with pytest.  
-- How to mesure test coverage with pytest-cov (Pytest plugin for measuring coverage).
-- How to automate tests using pytest with TravisCI.   
-- Automatic coverage reporting with Coveralls.  
-
-## Inpired by:  
-- introduction to CI with Travis: https://www.youtube.com/watch?v=buXwBr9H3VY  
-- introduction to pytest: https://www.youtube.com/watch?v=LdVJj65ikRY 
-- python doctest module: https://docs.python.org/2/library/doctest.html
-- automated tests with pytest: https://ilovesymposia.com/2014/10/01/continuous-integration-0-automated-tests-with-pytest/
-- measuring test coverage: https://ilovesymposia.com/2014/10/02/continuous-integration-1-test-coverage/  
-- setting up test configuration files: https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
-- using Travis-CI to run your tests automatically with each git push: https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-4-set-up-travis-ci/  
-- continuously check your test coverage using Coveralls (https://coveralls.io/): https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-test-coverage-using-coveralls/ 
-- badge your repo: https://ilovesymposia.com/2014/10/17/continuous-integration-in-python-6-show-off-your-work/  
 
 ## Requirements: 
 
@@ -172,3 +162,15 @@ More details:
 https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
 http://pytest.org/latest/customize.html  
 http://coverage.readthedocs.io/en/latest/config.html  
+
+
+## Looking for more help regarding these topics?
+- introduction to CI with Travis: https://www.youtube.com/watch?v=buXwBr9H3VY  
+- introduction to pytest: https://www.youtube.com/watch?v=LdVJj65ikRY 
+- python doctest module: https://docs.python.org/2/library/doctest.html
+- automated tests with pytest: https://ilovesymposia.com/2014/10/01/continuous-integration-0-automated-tests-with-pytest/
+- measuring test coverage: https://ilovesymposia.com/2014/10/02/continuous-integration-1-test-coverage/  
+- setting up test configuration files: https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
+- using Travis-CI to run your tests automatically with each git push: https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-4-set-up-travis-ci/  
+- continuously check your test coverage using Coveralls (https://coveralls.io/): https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-test-coverage-using-coveralls/ 
+- badge your repo: https://ilovesymposia.com/2014/10/17/continuous-integration-in-python-6-show-off-your-work/  
