@@ -63,7 +63,7 @@ root@ubuntu:~/continuous-integration-with-python#
 
 ## Requirements: 
 
-#### To test python code locally: 
+#### To test your python code locally using pytest: 
 ```
 sudo pip install pytest pytest-cov coveralls  
 ```
