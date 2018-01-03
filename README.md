@@ -126,14 +126,14 @@ With the option ```--cov-report term-missing```, we can see which lines are not 
 
 #### Travis CI:  
 To make these tests and reports automatic, we use a github webhook with Travis CI.   
-Travis tests with py.test the repo every time you push to your GitHub repository.  
+Every time you push to your GitHub repository, Travis tests with pytest the repository.   
 The file [**.travis.yml**](.travis.yml) has the Travis CI details.  
 The file [**requirements.txt**](requirements.txt) has the list of python packages Travis installs.  
 
 #### Coveralls:  
 Our [**.travis.yml**](.travis.yml) file use the service Coveralls: Travis pushes the coverage report to Coveralls every time it runs, i.e., every time you push something to your GitHub repository.  
  
-## run python tests locally:   
+## How to run python tests locally:   
 ```
 py.test  
 py.test -v  
