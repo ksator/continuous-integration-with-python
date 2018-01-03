@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/ksator/continuous-integration-with-python.svg?branch=master)](https://travis-ci.org/ksator/continuous-integration-with-python)
 [![Coverage Status](https://coveralls.io/repos/github/ksator/continuous-integration/badge.svg?branch=master)](https://coveralls.io/github/ksator/continuous-integration?branch=master)  
 
-## About this repo: 
+# About this repo: 
 - How to syntax check python script using py_compile
 - How to run python tests using pylint
 - How to test python code with pytest.  
@@ -10,13 +10,13 @@
 - Automatic coverage reporting with Coveralls.  
 
 
-## python syntax check using py_compile: 
+# python syntax check using py_compile: 
 You can use the module py_compile to validate the syntax of a python script.  
 ```
 python -m py_compile maths.py  
 ```
 
-## python tests using pylint:
+# python tests using pylint:
 This python script uses an undefined variable
 ```
 # more a.py 
@@ -59,6 +59,7 @@ E:  2, 6: Undefined variable 'a' (undefined-variable)
 root@ubuntu:~/continuous-integration-with-python# 
 ```
 
+# Continious integration for Python code
 
 ## Requirements: 
 
