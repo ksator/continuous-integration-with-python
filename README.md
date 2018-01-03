@@ -70,12 +70,15 @@ sudo pip install pytest pytest-cov coveralls
 Actually, coveralls installation is not required locally. It is used by Travis CI  to push coverage report to the Coveralls service.     
 
 #### Travis CI:  
-To test with Travis CI, you need a github account.  
-Github supports webhook with Travis CI.   
-Travis CI runs tests every time you push to your GitHub repository.   
+https://travis-ci.com/  
+https://travis-ci.org/ 
+Github supports webhook with Travis CI.  
+Travis CI runs tests every time you push to your GitHub repository.  
+To test your code from Github using Travis CI, you need a github account.  
+
 
 #### Coveralls:   
-https://coveralls.io/
+https://coveralls.io/  
 Travis pushes the coverage report to Coveralls every time Travis is run.   
 You can sign in to Travis and coveralls with your github account.  
 
