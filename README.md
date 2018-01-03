@@ -75,6 +75,7 @@ Github supports webhook with Travis CI.
 Travis CI runs tests every time you push to your GitHub repository.   
 
 #### Coveralls:   
+https://coveralls.io/
 Travis pushes the coverage report to Coveralls every time Travis is run.   
 You can sign in to Travis and coveralls with your github account.  
 
