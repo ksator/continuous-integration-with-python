@@ -173,5 +173,5 @@ http://coverage.readthedocs.io/en/latest/config.html
 - [**measuring test coverage**](https://ilovesymposia.com/2014/10/02/continuous-integration-1-test-coverage/)  
 - [**setting up test configuration files**](https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/)  
 - [**using Travis-CI to run your tests automatically with each git push**](https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-4-set-up-travis-ci/)  
-- [**continuously check your test coverage using Coveralls**](https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-test-coverage-using-coveralls/ 
-- badge your repo**](https://ilovesymposia.com/2014/10/17/continuous-integration-in-python-6-show-off-your-work/)  
+- [**continuously check your test coverage using Coveralls**](https://ilovesymposia.com/2014/10/15/continuous-integration-in-python-5-report-test-coverage-using-coveralls/)
+- [**badge your repo**](https://ilovesymposia.com/2014/10/17/continuous-integration-in-python-6-show-off-your-work/)  
