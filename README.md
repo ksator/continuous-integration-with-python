@@ -102,7 +102,7 @@ pip install pytest
 #### doctest:    
 The doctest module searches for pieces of text that look like interactive Python sessions and then executes those sessions to verify that they work exactly as shown.  
 https://docs.python.org/2/library/doctest.html  
-Pytest supports doctests with the --doctest-modules flag.  
+Pytest supports doctests with the ```--doctest-modules``` flag.  
 
 [**maths3.py**](maths3.py) is using doctests. The tests are in the code comment.  
 
@@ -115,8 +115,8 @@ pytest-cov installation:
 pip install pytest-cov
 ```
 
-Use the option --cov to mesure coverage.  
-With the option --cov-report term-missing, we can see which lines are not covered.   
+Use the option ```--cov``` to mesure coverage.  
+With the option ```--cov-report term-missing```, we can see which lines are not covered.   
 
 #### Travis CI:  
 To make these tests and reports automatic, we use a github webhook with Travis CI.   
@@ -159,7 +159,7 @@ py.test --doctest-modules --cov=maths3.py --cov-report term-missing
 py.test --doctest-modules --cov=maths3.py --cov-report term-missing -v  
 ```
 ##  setup.cfg file:   
-You can use a setup.cfg file at the root of the project with configuration options (ignore maths2.py, cov-report term-missing, ....) to then invoke your tests with a simple call to py.test.  
+You can use a [**setup.cfg file**](setup.cfg) at the root of the project with configuration options (ignore maths2.py, cov-report term-missing, ....) to then invoke your tests with a simple call to py.test.  
 More details:   
 - https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
 - http://pytest.org/latest/customize.html  
