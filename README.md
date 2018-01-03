@@ -71,7 +71,7 @@ Actually, coveralls installation is not required locally. It is used by Travis C
 
 #### Travis CI:  
 https://travis-ci.com/  
-https://travis-ci.org/ 
+https://travis-ci.org/  
 Github supports webhook with Travis CI.  
 Travis CI runs tests every time you push to your GitHub repository.  
 To test your code from Github using Travis CI, you need a github account.  
