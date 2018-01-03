@@ -161,9 +161,9 @@ py.test --doctest-modules --cov=maths3.py --cov-report term-missing -v
 ##  setup.cfg file:   
 You can use a setup.cfg file at the root of the project with configuration options (ignore maths2.py, cov-report term-missing, ....) to then invoke your tests with a simple call to py.test.  
 More details:   
-https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
-http://pytest.org/latest/customize.html  
-http://coverage.readthedocs.io/en/latest/config.html  
+- https://ilovesymposia.com/2014/10/13/continuous-integration-in-python-3-set-up-your-test-configuration-files/  
+- http://pytest.org/latest/customize.html  
+- http://coverage.readthedocs.io/en/latest/config.html  
 
 
 # Looking for more help regarding these topics?
